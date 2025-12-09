@@ -1,0 +1,406 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 1440px;
+    margin: 0 auto;
+}
+table {
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-p {
+    width: 90%;
+     margin: 0 auto;
+}
+
+p, a, h1 {
+    text-decoration: none;
+    color: #333333;
+}
+
+.main-product {
+    background-image: url(../img/fon.png);
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.icon-main {
+    width: 77px;
+    
+}
+.comparison {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-product-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.arrow {
+    width: 20px;
+}
+
+.text-home {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-comparison {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sofa-max {
+    display: flex;
+}
+
+.cards-sofa {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 34px;
+    margin-bottom: 60px;
+}
+
+
+
+.img-sofa-first {
+    padding-top: 45px;
+    width: 280px;
+}
+ 
+.img-sofa-two {
+    width: 283px;
+}
+
+.flex-sofa {
+    display: flex;
+}
+
+.img-sofa {
+    background-color: #F9F1E7;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.asgaard_sofa {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.flex-sofa img {
+    width: 124px;
+}
+
+.estimation {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.review {
+    font-size: 13px;
+    color: #9F9F9F;
+    border-left: 1px solid #9F9F9F ;
+    padding-left: 10px;
+}
+
+.rs {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 6px 0 10px 0;
+}
+
+.go-text {
+    font-size: 28px;
+    font-weight: 500;
+    width: 223px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.more-product {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.more-product:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.add {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.button-product {
+    background-color: #B88E2F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 242px;
+    height: 39px;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.button-product:hover {
+    background-color: #727272; 
+    transition: 0.3s;
+}
+
+.button-product p {
+     color: #FFFFFF;
+
+}
+.arrow-add {
+    width: 18px;
+}
+
+.add-product {
+    margin-top: 50px;
+}
+
+
+th {
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 96px;
+    padding-bottom: 26px;
+}
+
+
+table,
+tr,
+td,
+th
+ {
+    border-right: 1px solid #E8E8E8;
+    border-collapse: collapse;
+}
+
+td {
+     width: 320px;
+     padding-left: 30px;
+     padding-right: 20px;
+     padding-bottom: 34px;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.table-border {
+    border-top: 1px solid #E8E8E8;
+}
+
+.add-btn {
+    width: 100%;
+    height: 64px;
+    background-color: #B88E2F;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+.add-btn:hover {
+    background-color: #727272; 
+    transition: 0.3s;
+}
+
+.main_icons {
+    margin-top: 112px;
+    background-color: #FAF3EA;
+    margin-bottom: 100px;
+}
+
+.icons_product {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-h {
+    font-size: 25px;
+    font-weight: 600;
+}
+.icon-p {
+    color: #898989;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icons_product {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    margin: 30px 54px 20px 54px;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 266px;
+    margin-right: 158px;
+}
+
+.menu_ul {
+    display: flex;
+    list-style-type: none;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.menu_ul a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.menu_ul a:hover {
+    color: #B88E2F;
+}
+
+.menu_item {
+    display: flex;
+    justify-content: space-between;
+    width: 247px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.f_one img {
+    margin-bottom: 50px;
+}
+
+.f_comment {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    width: 285px;
+}
+
+.f_ul {
+    list-style-type: none;
+}
+
+.f_ul p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 55px;
+}
+
+.f_ul a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.f_ul a:hover {
+    color: #B88E2F;
+}
+
+.f_li {
+    padding-bottom: 46px;
+}
+
+.f_help p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 55px;
+}
+
+.f_p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 46px;
+}
+
+.f_form p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 53px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 200px;
+    height: 21px;
+    padding-bottom: 3px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.form_button {
+    width: 75px;
+    height: 21px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 3px;
+    background-color: #FFFFFF;
+}
+
+.footer_two .container {
+    width: 100%;
+    border-top: 1px solid #D9D9D9;
+    margin: 0 auto;
+}
+
+.footer_two p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 35px;
+}

@@ -1,0 +1,419 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+}
+
+p, a, h1 {
+    text-decoration: none;
+    color: #333333;
+}
+
+button:hover {
+    background-color: #B88E2F;
+    color: #FFFFFF;
+}
+
+
+/*шапка*/
+.header {
+    display: flex;
+    margin: 30px 54px 20px 54px;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 266px;
+    margin-right: 158px;
+}
+
+.menu_ul {
+    display: flex;
+    list-style-type: none;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.menu_ul a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.menu_ul a:hover {
+    color: #B88E2F;
+}
+
+.menu_item {
+    display: flex;
+    justify-content: space-between;
+    width: 247px;
+}
+
+
+/*первая секция*/
+.one {
+    background-image: url("../img/background.png");
+    width: 100%;
+    height: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    text-align: center;
+}
+
+.h1_home {
+    height: 72px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+
+.p_home {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+span {
+    font-weight: 400;
+}
+
+.filter {
+    width: 100%;
+    height: 100px;
+    background-color: #F9F1E7;
+}
+
+.filter_item .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.filter_item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+}
+
+.system {
+    margin-right: 12px;
+}
+
+.icon p {
+    margin-right: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.vector_one {
+    margin-right: 24px;
+}
+
+.vector_two {
+    margin-right: 30px;
+}
+
+.icon_two {
+    height: 37px;
+    border-left: 2px solid #9F9F9F;
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+}
+
+.show_text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 12px;
+}
+
+.p_show, 
+.p_show_two {
+    margin-left: 17px;
+    font-size: 20px;
+    color: #9F9F9F;
+    font-weight: 400;
+}
+
+.p_show {
+    width: 55px;
+    height: 55px;
+    background-color: #FFFFFF;
+    padding: 17px 18px;
+}
+
+.p_show_two {
+    width: 188px;
+    height: 55px;
+    background-color: #FFFFFF;
+    padding: 17px 0px 17px 30px;
+}
+
+
+/*блок карт*/
+.cards .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+
+.card {
+    width: 285px;
+    height: 446px;
+    background-color: #F4F5F7;
+    margin-bottom: 40px;
+}
+
+.card_h2 {
+    font-size: 24px;
+    color: #3A3A3A;
+    padding: 16px 0px 8px 16px;
+}
+
+.card_comment {
+    padding: 0px 0px 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+}
+
+.price {
+    display: flex;
+    padding: 0px 0px 30px 16px;
+}
+
+.price_h3 {
+    font-size: 20px;
+    color: #3A3A3A;
+    padding-right: 16px;
+}
+
+.price_comment {
+    font-size: 16px;
+    color: #B0B0B0;
+    font-weight: 400;
+    text-decoration: line-through
+}
+
+.price_two {
+    padding-left: 16px;
+}
+
+
+/*вторая секция */
+.two .container {
+    display: flex;
+    justify-content: space-between;
+    width: 392px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+
+.two button {
+    margin-top: 30px;
+}
+
+.two_button {
+    width: 60px;
+    height: 60px;
+    background-color: #F9F1E7;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.two_button_big {
+    width: 98px;
+    height: 60px;
+    color: #000000;
+    background-color: #F9F1E7;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/*третья секция */
+.three {
+    width: 100%;
+    height: 270px;
+    background-color: #FAF3EA;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.three_cards {
+    display: flex;
+    width: 1334px;
+    justify-content: space-between; 
+    margin: 0 auto;
+}
+
+.three_card {
+    display: flex;
+    align-items: center;
+}
+
+.three_text {
+    margin-left: 10px;
+}
+
+.three_h4 {
+    font-size: 25px;
+    color: #242424;
+    margin-bottom: 10px;
+}
+
+.three_comment {
+    font-size: 20px;
+    font-weight: 500;
+    color: #898989;
+}
+
+
+/*подвал*/
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.f_one img {
+    margin-bottom: 50px;
+}
+
+.f_comment {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    width: 285px;
+}
+
+.f_ul {
+    list-style-type: none;
+}
+
+.f_ul p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 55px;
+}
+
+.f_ul a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.f_ul a:hover {
+    color: #B88E2F;
+}
+
+.f_li {
+    padding-bottom: 46px;
+}
+
+.f_help p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 55px;
+}
+
+.f_p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 46px;
+}
+
+.f_form p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-bottom: 53px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 200px;
+    height: 21px;
+    padding-bottom: 3px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.form_button {
+    width: 75px;
+    height: 21px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 3px;
+    background-color: #FFFFFF;
+}
+
+.footer_two .container {
+    width: 100%;
+    border-top: 1px solid #D9D9D9;
+    margin: 0 auto;
+}
+
+.footer_two p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 35px;
+}
